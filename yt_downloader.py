@@ -182,7 +182,6 @@ def main():
 
     ydl_opts = {
 
-        # 🔥 HIER IST DEINE ÄNDERUNG (Qualität 2x erzwingen)
         'format': f'bestvideo[height={qual_str}]+bestaudio/best[height={qual_str}]/bestvideo[height={qual_str}]+bestaudio/best',
 
         'merge_output_format': 'mp4',
